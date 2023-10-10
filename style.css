@@ -1,0 +1,194 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+
+header {
+    background-color: #265EE8;
+    height: 70px;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-link {
+    width: 600px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.link > li {
+    padding: 0px 10px;
+    color: white;
+}
+
+li {
+    list-style-type: none
+}
+
+
+.login-button {
+    background-color: #FFFFFF ;
+    height: 2.3rem;
+    width: 4rem;
+    border-radius: 40px;
+    border-style: none;
+}
+
+.nav-spacing {
+    height: 50px;
+    width: 200px;
+    padding: 5px;
+}
+.hero > button {
+    border-radius: 40px;
+    border-style: none;
+    margin-top: 25px;
+    padding: 15px 25px;
+}
+
+.black-button {
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+}
+
+.login-flex {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.nav-bar {
+    width: 1000px;
+    height: 50px;
+    padding: 25px;
+    background-color: #265EE8;
+}
+
+.blue {
+    
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+
+}
+
+.hero {
+    /* background-color: #EE82EE; */
+    width: 700px;
+}
+
+.white-text {
+    color: white;
+    padding: 20px;
+    margin:auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 25px 0px;
+}
+
+.box-height {
+    height: 450px;
+}
+
+.black-border {
+    border: dashed 2px black;
+
+}
+
+.white {
+    background-color: white;
+}
+
+.grey {
+    background-color: #D2D2D2;
+}
+
+.padding {
+    padding: 50px;
+}
+
+.blu-container {
+    width: 600px;
+    background-color: #1D90FF;
+}
+
+.pink {
+    width: 400px;
+    background-color: #FFC0CB;
+
+}
+
+.green {
+    width: 1000px;
+    background-color: #228B22;
+    height: 600px;
+}
+
+.black {
+    padding: 10px 0px 50px 0px;
+    background-color: #23272A;
+}
+
+.arancione {
+    width: 400px;
+    background-color: #F08080;
+}
+
+
+.light-green {
+    width: 150px;
+    background-color: #20B2AA;
+    border: dashed 2px rgb(255, 255, 255);
+}
+
+footer {
+    padding: 10px;
+    background-color: #23272A;
+}
+
+.footer-box {
+
+    width: 1000px;
+    height: 70px;
+    background-color: #7FFFD4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    background-color: #FFB6C1;
+    padding: 5px;
+}
